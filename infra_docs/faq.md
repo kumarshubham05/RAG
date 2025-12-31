@@ -1,34 +1,26 @@
-\# Infrastructure FAQ
+# Infrastructure FAQ
 
+## Azure Subscriptions
 
+Azure Dev Subscription Name: COMMONSERVICES-DEV-TEST-AZURE  
+Azure Prod Subscription Name: COMMONSERVICES-PROD-AZURE  
 
-\## AWS Accounts
+## Kubernetes (AKS)
 
-Production runs in account 123456789012.
+Dev AKS Cluster Name: DEV-BOLD-AKS-CC-00  
+Prod AKS Cluster Name: PROD-BOLD-AKS-CC-01  
 
-Staging runs in account 210987654321.
+## CNAME Web App Lookup
 
+Command to find web app for a CNAME: nslookup <cname>
 
+## Memory Dump
+To collect memory dump of webapp or webjob please follow below document:
+[Confluence Link](https://livecareer.atlassian.net/wiki/spaces/INFRA/pages/4935221251/WebJob+Kudu+Worker+Process+Mapping+Memory+Dump+Collection+Guide)
 
-\## Kubernetes
+## Github and Github Co-Pilot Access
+For Github and Github Co-pilot Access please follow this  [Confluence Link](http://livecareer.atlassian.net/wiki/spaces/INFRA/pages/4436066368/GitHub+Copilot+Access+To+The+New+Org+-+Developers)
 
-Production EKS cluster name is prod-eks-cluster.
-
-Staging cluster name is staging-eks-cluster.
-
-
-
-\## Backups
-
-RDS databases are backed up daily with 7-day retention.
-
-
-
-\## Secrets
-
-Secrets are stored in AWS Secrets Manager.
-
-IAM access keys must be rotated every 90 days.
-
-
+## CNAME Binding Process
+To bind CNAME on any webapp please follow this [Confluence Link](https://livecareer.atlassian.net/wiki/spaces/INFRA/pages/3660513395/CNAME+Binding+Automation+Process)
 
