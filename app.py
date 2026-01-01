@@ -48,7 +48,7 @@ if user_input:
 
     with st.chat_message("assistant"):
         with st.spinner("Searching internal docs..."):
-            response = qa_chain.invoke({"query": user_input})
+            response = qa_chain(user_input)
 
             # Guardrail: no sources → no answer
             if not response["source_documents"]:
@@ -69,3 +69,4 @@ if user_input:
     st.session_state.messages.append(
         {"role": "assistant", "content": answer}
     )
+
