@@ -9,8 +9,8 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🛠️ Infra Assistant")
-st.caption("Internal DevOps Knowledge Base")
+st.title("🛠️ BOLD Infra Assistant")
+st.caption("Internal INFRA Knowledge Base")
 
 # -----------------------------------
 # Load backend (cached)
@@ -38,7 +38,7 @@ for msg in st.session_state.messages:
 # -----------------------------------
 # User input
 # -----------------------------------
-user_input = st.chat_input("Ask about infrastructure, deployments, incidents...")
+user_input = st.chat_input("Ask about infrastructure, process, incidents...")
 
 if user_input:
     # Show user message

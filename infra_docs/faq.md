@@ -24,3 +24,6 @@ For Github and Github Co-pilot Access please follow this  [Confluence Link](http
 ## CNAME Binding Process
 To bind CNAME on any webapp please follow this [Confluence Link](https://livecareer.atlassian.net/wiki/spaces/INFRA/pages/3660513395/CNAME+Binding+Automation+Process)
 
+## Restore And BackUp SOLR CORE
+To backup and restore SOLR CORE please follow this [Confluence Link](https://livecareer.atlassian.net/wiki/spaces/INFRA/pages/4399235086/SOLR+Backup+-+Setup+and+Restore)
+

@@ -34,4 +34,12 @@ CVGENIUS
 Resumecompanion
 ResumeNERD
 
-## Wordpress Architecture
+## WordPress SSG Architecture
+
+Rendering Model: Static Site Generation (SSG)  
+Backend VMs: Used for content scraping and generation  
+Backend Stack: WordPress with PHP-FPM  
+Database: Azure PaaS SQL Database  
+Frontend VMs: Serve static content  
+Frontend Stack: NGINX serves static files
+

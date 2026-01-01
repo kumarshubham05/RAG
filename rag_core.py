@@ -26,8 +26,8 @@ def build_qa_chain():
         raise RuntimeError("No infra documents found")
 
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=800,
-        chunk_overlap=150
+        chunk_size=500,
+        chunk_overlap=100
     )
 
     chunks = text_splitter.split_documents(documents)
